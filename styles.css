@@ -1,0 +1,207 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background: #1abc9c;
+    border-radius: 5px;
+}
+
+/* Centered Form */
+form {
+    background: white;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    background: #1abc9c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+}
+
+button:hover {
+    background: #16a085;
+}
+
+/* Dashboard */
+.dashboard-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Image Display */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container div {
+    background: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    width: 120px; /* Smaller size */
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Diagnosis Section */
+.diagnosis-container {
+    margin-top: 20px;
+    background: #e3f2fd;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.diagnosis-container h3 {
+    color: #2c3e50;
+}
+
+.diagnosis-container p {
+    font-size: 16px;
+    color: #333;
+}
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #007bff;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard Styling */
+.dashboard-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Container */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.image-container img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+/* Upload Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Diagnosis Container */
+.diagnosis-container {
+    margin-top: 20px;
+    padding: 15px;
+    background: #eef6ff;
+    border-left: 4px solid #007bff;
+    border-radius: 5px;
+}
